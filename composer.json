@@ -21,18 +21,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Num3r06\\NovaImportCard\\": "src/"
+            "Sparclex\\NovaImportCard\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Num3r06\\NovaImportCard\\Tests\\": "tests/"
+            "Sparclex\\NovaImportCard\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Num3r06\\NovaImportCard\\CardServiceProvider"
+                "Sparclex\\NovaImportCard\\CardServiceProvider"
             ]
         }
     },
