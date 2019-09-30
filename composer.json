@@ -1,5 +1,5 @@
 {
-    "name": "sparclex/nova-import-card",
+    "name": "num3r06/nova-import-card",
     "description": "A card which lets you batch import resources",
     "keywords": [
         "laravel",
@@ -21,18 +21,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Sparclex\\NovaImportCard\\": "src/"
+            "Num3r06\\NovaImportCard\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sparclex\\NovaImportCard\\Tests\\": "tests/"
+            "Num3r06\\NovaImportCard\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sparclex\\NovaImportCard\\CardServiceProvider"
+                "Num3r06\\NovaImportCard\\CardServiceProvider"
             ]
         }
     },
